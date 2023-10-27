@@ -9,30 +9,33 @@ class Student
 {
     private :
         int id ; // l'identité de l'étudiant
-        string nom ; // le nom de l'élève
-        string prenoms ; // le prénom
-        string naissance ; // la date de naissance
-        string droit ; // la date de paiement du droit de l'élève
-        string classe ; // la classe de l' élève
+        string lname; // le nom de l'élève
+        string fname ; // le prénom
+        string birth ; // la date de naissance
+        string afees ; // la date de paiement du droit de l'élève
+        string Class ; // la classe de l' élève
 
     public :
         Student () ; // constructeur 
         int getid () ; 
         void setid () ; 
-        string getnom () ;
-        void setnom () ;
-        string getprenoms () ;
-        void setprenoms () ;
-        string getnaissance () ;
-        void setnaissance () ;
-        string getdroit () ;
-        void setdroit () ;
-        string getclasse () ;
-        void setclasse () ;
+        string getlname () ;
+        void setlname () ;
+        string getfname () ;
+        void setfname () ;
+        string getbirth () ;
+        void setbirth () ;
+        string getafees () ;
+        void setafees () ;
+        string getClass () ;
+        void setClass () ;
         void insert () ; // insérer un étudiant dans la base
         void delete () ; // supprimer un étudiant dans la base
         void deleteAll () ; // supprimer toutes les listes chaque fin d'année
-        void displayStudent () ; // afficher la liste des étudiants dans chaque classe  
+        void displayList () ; // afficher la liste des étudiants dans chaque classe  
+        void displayStudent () ; // afficher un étudiant dans la liste
+        void takeFrom () ; //  
+        void saveTo () ; // 
 
 } ;
 
@@ -41,12 +44,12 @@ class Fees
     private :
         int id ; // l' identité de l' étudiant
         string jan ;
-        string fev ;
+        string feb ;
         string mar ;
-        string avr ;
+        string apr ;
         string mai ;
-        string jui ;
-        string jll ;
+        string jun ;
+        string jul ;
         string aou ;
         string sept ;
         string oct ;

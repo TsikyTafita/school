@@ -1,18 +1,9 @@
 #include "school.h"
 
 /******************************Description des classes****************************/
-// constructeur
+// constructeur - initialisation des attributs
 Student::Student ()
-{
-
-}
-
-string Student::getStudent ()
-{
-    return Student ;
-}
-
-void Student::setStudent ()
 {
     
 }
+
